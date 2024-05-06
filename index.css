@@ -255,3 +255,46 @@ li span{
     font-weight: 600;
     color: #000;
 }
+.footerlinks .mainlink{ 
+    color: #e0501b; 
+} 
+.footer a:hover{ 
+    color: #007bff; 
+} 
+ 
+/* Responsive*/ 
+@media only screen and (max-width: 600px){ 
+    .nav{ 
+        flex-direction: column; 
+        justify-content: space-around; 
+        padding: 20px; 
+        height: auto; 
+        overflow-y: hidden; 
+    } 
+    .nav h4{ 
+        font-size: 6vw; 
+        margin-top: 10px; 
+        margin-bottom: 14px; 
+    } 
+    .nav .links a{ 
+        margin-right: 25px; 
+        font-size: 12px; 
+        font-weight: 600; 
+    } 
+ 
+    /*Landing CSS*/ 
+    .landing{ 
+        flex-direction: column-reverse; 
+        height: 750px; 
+        align-items: center; 
+        justify-content: center; 
+        text-align: center; 
+    } 
+    .landingText h1{ 
+        font-size: 6vw; 
+        margin: 0 !important; 
+    } 
+    .landingText h3{ 
+        font-size: 16px; 
+    } 
+}
